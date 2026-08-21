@@ -1,0 +1,22 @@
+{
+    "title": "Terraform Registry Module & Provider Lookup Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "modules": {
+            "title": "Modules",
+            "type": "array",
+            "editor": "stringList",
+            "description": "One or more Terraform modules to look up, each as \"namespace/name/provider\", e.g. \"terraform-aws-modules/vpc/aws\".",
+            "prefill": ["terraform-aws-modules/vpc/aws"],
+            "default": ["terraform-aws-modules/vpc/aws"]
+        },
+        "providers": {
+            "title": "Providers",
+            "type": "array",
+            "editor": "stringList",
+            "description": "One or more Terraform providers to look up, each as \"namespace/name\", e.g. \"hashicorp/aws\". Leave empty to skip provider lookups."
+        }
+    },
+    "required": []
+}

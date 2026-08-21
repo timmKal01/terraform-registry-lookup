@@ -1,0 +1,13 @@
+{
+    "actorSpecification": 1,
+    "name": "terraform-registry-lookup",
+    "title": "Terraform Registry Module & Provider Lookup",
+    "description": "Look up latest version, download count, and source repo for any Terraform module or provider via the official Terraform Registry API.",
+    "version": "0.1",
+    "meta": {
+        "templateId": "custom-no-proxy"
+    },
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "dockerfile": "../Dockerfile"
+}

@@ -1,0 +1,11 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Output schema of Terraform Registry Module & Provider Lookup",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Module/provider details",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}
