@@ -1,0 +1,78 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "type",
+                    "ref",
+                    "found",
+                    "namespace",
+                    "name",
+                    "provider",
+                    "latestVersion",
+                    "description",
+                    "downloads",
+                    "verified",
+                    "publishedAt",
+                    "sourceUrl"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "type": {
+                        "label": "Type",
+                        "format": "text"
+                    },
+                    "ref": {
+                        "label": "Ref",
+                        "format": "text"
+                    },
+                    "found": {
+                        "label": "Found",
+                        "format": "boolean"
+                    },
+                    "namespace": {
+                        "label": "Namespace",
+                        "format": "text"
+                    },
+                    "name": {
+                        "label": "Name",
+                        "format": "text"
+                    },
+                    "provider": {
+                        "label": "Provider",
+                        "format": "text"
+                    },
+                    "latestVersion": {
+                        "label": "Latest version",
+                        "format": "text"
+                    },
+                    "description": {
+                        "label": "Description",
+                        "format": "text"
+                    },
+                    "downloads": {
+                        "label": "Downloads",
+                        "format": "number"
+                    },
+                    "verified": {
+                        "label": "Verified",
+                        "format": "boolean"
+                    },
+                    "publishedAt": {
+                        "label": "Published at",
+                        "format": "date"
+                    },
+                    "sourceUrl": {
+                        "label": "Source URL",
+                        "format": "link"
+                    }
+                }
+            }
+        }
+    }
+}
