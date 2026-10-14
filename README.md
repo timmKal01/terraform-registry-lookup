@@ -60,5 +60,5 @@ modules/providers are requested.
 
 ## Related products
 
-- [Docker Hub Image Tracker](https://github.com/timmKal01/docker-hub-image-tracker)
-- [Homebrew Package Lookup](https://github.com/timmKal01/homebrew-package-lookup)
+- [Docker Hub Tag Tracker](https://apify.com/m_ctim/docker-hub-image-tracker)
+- [Homebrew Package Lookup](https://apify.com/m_ctim/homebrew-package-lookup)
